@@ -6,6 +6,8 @@ import useHttp from './hooks/http-hook';
 
 function App() {
 
+  console.log('in test branch');
+
   const [tasks, setTasks] = useState([]);
 
   const transformTasks = taskObj => {
