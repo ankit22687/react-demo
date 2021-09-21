@@ -6,7 +6,7 @@ import useHttp from './hooks/http-hook';
 
 function App() {
 
-  console.log('checking console log in test branch');
+  console.log('in test branch');
 
   const [tasks, setTasks] = useState([]);
 
