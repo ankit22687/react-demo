@@ -8,6 +8,8 @@ function App() {
 
   const [tasks, setTasks] = useState([]);
 
+  console.log('test branch 2');
+
   const transformTasks = taskObj => {
     const loadedTasks = [];
 
