@@ -7,7 +7,7 @@ import useHttp from './hooks/http-hook';
 function App() {
 
   console.log('in master console log');
-
+  console.log('add another console log');
   const [tasks, setTasks] = useState([]);
 
   const transformTasks = taskObj => {
